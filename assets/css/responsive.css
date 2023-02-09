@@ -1,0 +1,569 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .footer_link_icon {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    
+    .mailSend input {
+        width: 200px;
+    }
+    
+    .mailSend {
+        width: 264px;
+    }
+    
+    .menu-area nav ul li a {
+        margin-left: 25px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .footer_link {
+        margin-bottom: 30px;
+        width: max-content;
+    }
+    .select_box {
+        height: 55px;
+    }
+    a.thm_btn {
+        width: 220px;
+        height: 60px;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    
+    .about_text {
+        padding-left: 30px;
+    }
+    .sec_title h4 {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    
+    .sec_title p {
+        font-size: 18px;
+    }
+    
+    .about_text ul li {
+        font-size: 18px;
+    }
+    
+    .about_text ul li i {
+        margin-right: 4px;
+    }
+    
+    .newsLetter_content {
+        max-width: 750px;
+        margin: auto;
+    }
+    
+    .newsLetter_content p {
+        font-size: 18px;
+        max-width: 600px;
+    }
+    
+    .Tour_blk h2 {
+        font-size: 30px;
+    }
+    
+    .Reward_blk h1 {
+        font-size: 70px;
+    }
+    .test_slider_blk {
+        max-width: 95%;
+    }
+    
+    .Blog_blk i span {
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+    }
+    
+    .Blog_blk h3 {
+        font-size: 22px;
+    }
+    
+    .Blog_blk ul li a {
+        font-size: 16px;
+    }
+    
+    
+    .footer_nav h4 {
+        font-size: 18px;
+    }
+    
+    .footer_nav ul li a {
+        font-size: 16px;
+    }
+    
+    .footer_link ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .footer_link_icon img {
+        width: 36px;
+    }
+    
+    .footer_link_icon h4 {
+        font-size: 18px;
+    }
+    
+    .footer_link_icon p {
+        font-size: 15px;
+    }
+    
+    .mailSend {
+        height: 50px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer_link {
+        margin-bottom: 30px;
+        width: max-content;
+    }
+    .select_box {
+        height: 55px;
+        flex: 0 0 48%;
+        margin: 10px 0;
+    }
+    a.thm_btn {
+        width: 220px;
+        height: 60px;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    
+    .about_text {
+        padding-left: 30px;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+.flexD {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+}
+    .sec_title h4 {
+        margin-bottom: 25px !important;
+        font-size: 16px;
+    }
+    
+    .sec_title p {
+        font-size: 18px;
+    }
+    
+    .about_text ul li {
+        font-size: 18px;
+    }
+    
+    .about_text ul li i {
+        margin-right: 4px;
+    }
+    
+    .newsLetter_content {
+        max-width: 750px;
+        margin: auto;
+    }
+    
+    .newsLetter_content p {
+        font-size: 16px;
+        max-width: 515px;
+    }
+    
+    .Tour_blk h2 {
+        font-size: 30px;
+    }
+    
+    .Reward_blk h1 {
+        font-size: 56px;
+    }
+
+.Reward_blk p {
+    font-size: 16px;
+}
+    .test_slider_blk {
+        max-width: 95%;
+    }
+    
+    .Blog_blk i span {
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+    }
+    
+    .Blog_blk h3 {
+        font-size: 22px;
+    }
+    
+    .Blog_blk ul li a {
+        font-size: 16px;
+    }
+    
+    
+    .footer_nav h4 {
+        font-size: 18px;
+    }
+    
+    .footer_nav ul li a {
+        font-size: 16px;
+    }
+    
+    .footer_link ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .footer_link_icon img {
+        width: 36px;
+    }
+    
+    .footer_link_icon h4 {
+        font-size: 18px;
+    }
+    
+    .footer_link_icon p {
+        font-size: 15px;
+    }
+    
+    .mailSend {
+        height: 50px;
+    }
+    .header_top_Right {
+        display: none;
+    }
+    
+    .header_top_left {
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .header_top_left a {
+        margin: 0;
+    }
+    
+    .hero_text p {
+        font-size: 18px;
+        max-width: 400px;
+    }
+    
+    section.hero-Area {
+        height: 660px;
+    }
+    
+    .Reservation_blk {
+        flex-wrap: wrap;
+    }
+    
+    .ab_img {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .Tour_blk {
+        max-width: 500px;
+        margin: 25px auto;
+    }
+    
+    section.Reward-Area {
+        padding: 100px 0;
+    }
+    
+    .user h4 {
+        font-size: 18px;
+    }
+    
+    .Blog-Area .sec_title {
+        margin-bottom: 20px;
+    }
+    .footer_cont {
+        margin-bottom: 35px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .logo-area img {
+        max-width: 250px;
+    }
+
+    .select_box {
+        height: 50px;
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+    a.thm_btn {
+        width: 205px;
+        height: 55px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    
+    .about_text {
+        padding-left: 15px;
+        max-width: 350px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+.flexD .about_text {
+    padding-right: 0;
+}
+
+.flexD {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+}
+    .sec_title h4 {
+        margin-bottom: 20px !important;
+        font-size: 15px;
+    }
+    
+    .sec_title p {
+        font-size: 16px;
+    }
+    
+    .about_text ul li {
+        font-size: 16px;
+        display: flex;
+        align-items: baseline;
+        margin: 10px  0;
+    }
+    
+    .about_text ul li i {
+        margin-right: 10px;
+    }
+    
+    .newsLetter_content {
+        max-width: 750px;
+        margin: auto;
+    }
+    
+    .newsLetter_content p {
+        font-size: 16px;
+        max-width: 515px;
+    }
+    
+    .Tour_blk h2 {
+        font-size: 24px;
+    }
+    
+    .Reward_blk h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+
+.Reward_blk p {
+    font-size: 16px;
+}
+    .test_slider_blk {
+        max-width: 96%;
+    }
+    
+    .Blog_blk i span {
+        font-size: 16px;
+        width: 140px;
+        height: 45px;
+    }
+    
+    .Blog_blk h3 {
+        font-size: 20px;
+    }
+    
+    .Blog_blk ul li a {
+        font-size: 16px;
+    }
+    
+    
+    .footer_nav h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .footer_nav ul li a {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .footer_link ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .footer_link_icon img {
+        width: 36px;
+    }
+    
+    .footer_link_icon h4 {
+        font-size: 18px;
+    }
+    
+    .footer_link_icon p {
+        font-size: 15px;
+    }
+    
+    .mailSend {
+        height: 50px;
+        width: 260px;
+    }
+    .header_top_Right {
+        display: none;
+    }
+    
+    .header_top_left {
+    }
+    
+    .header_top_left a {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+.header_top_left a img {
+    width: 14px;
+}
+    
+    .hero_text p {
+        font-size: 16px;
+        max-width: 400px;
+    }
+    
+    section.hero-Area {
+        height: 530px;
+    }
+    
+    .Reservation_blk {
+        flex-wrap: wrap;
+    }
+    
+    .ab_img {
+        max-width: 350px;
+        margin: auto;
+    }
+    
+    .Tour_blk {
+        max-width: 351px;
+        margin: 25px auto;
+    }
+    
+    section.Reward-Area {
+        padding: 40px 0;
+    }
+    
+    .user h4 {
+        font-size: 18px;
+    }
+    
+    .Blog-Area .sec_title {
+        margin-bottom: 20px;
+    }
+    .footer_cont {
+        margin-bottom: 35px;
+    }
+    .email_box {
+        flex-direction: column;
+        max-width: 350px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+.email_box a {
+    height: 50px;
+    width: 170px;
+    margin: auto;
+}
+
+.email_box input {
+    height: 50px;
+    margin-bottom: 20px;
+}
+    
+    .Reward_wrp {
+        flex-direction: column;
+    }
+
+.Reward_blk {
+    margin: 20px auto;
+}
+    
+    .mailSend input {
+        width: 200px;
+    }
+    .footer_link {
+        margin-bottom: 30px;
+        width: max-content;
+    }
+    .Reservation_btn {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .Reservation_wrp {
+        padding-bottom: 30px;
+    }
+    
+    .Reservation_btn button.active {
+        padding: 15px 30px;
+        margin-bottom: 10px;
+    }
+    .hero_text {
+        margin-top: -100px;
+    }
+    .footer_nav {
+        margin-top: 20px;
+    }
+    
+    .footer_Area hr {
+        margin-top: 10px;
+    }
+    .header_top{
+    display: none;
+}
+section.Tour-Area {
+    margin: 60px 0 40px;
+}
+
+.Testimonials-Area {
+    margin: 69px 0;
+}
+
+.test_slider .owl-dots {
+    margin-top: 50px;
+}
+
+.footer_Area {
+    padding-top: 60px;
+}
+
+.Blog-Area {
+    padding: 60px 0 40px;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
